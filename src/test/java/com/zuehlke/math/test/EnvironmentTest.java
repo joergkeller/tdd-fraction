@@ -1,12 +1,14 @@
 package com.zuehlke.math.test;
 
-import org.junit.Assert;
 import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
 
 public class EnvironmentTest {
     
     @Test
-    public void failing() throws Exception {
-        Assert.fail("as requested");
+    public void success() throws Exception {
+        assertTrue(true);
     }
 }
